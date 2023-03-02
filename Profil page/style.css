@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+:root {
+	--purple:#8B43B1;
+}
+body {
+	margin: 0px auto;
+	font-family: 'Manrope', sans-serif;
+	width: 600px;
+	height: 100vh;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+		color: var(--purple);
+	}
+
+.card {
+	width: 600px;
+	margin: 20px 0;
+	padding: 40px 15px;
+	margin-top: 5%;
+	background: linear-gradient(180deg, rgba(0,0,0,1) 61%, rgba(59,12,91,0.7301295518207283) 79%, rgba(255,81,238,0.5116421568627452) 95%);
+	text-align: center;
+	display: block;
+	box-shadow: 10px 5px 5px black
+
+}
+
+p {
+	color: white;
+}
+
+.container .card button {
+	background-color: rgba(255,81,238,0.5116421568627452);
+	border: 1px solid var(--red);
+	color: whitesmoke;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: color 0.5s, background-color 0.5s;
+	margin-top: 20px;
+	padding: 15px 20px;
+	font-size: 15px;
+
+}
+
+.img-circle {
+	width: 100px;
+}
